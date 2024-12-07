@@ -1,11 +1,140 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presell Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .highlight {
+            background-color: #FFF3CD;
+            border-left: 4px solid #FFCC00;
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .pricing .card {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .pricing .card h3 {
+            color: #4CAF50;
+            font-size: 22px;
+        }
+
+        .pricing .card p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .pricing .card .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
+    <header>
+        <h1>Transforme Sua Vida Agora</h1>
+        <p>A melhor solução para alcançar seus objetivos com saúde e vitalidade.</p>
+    </header>
+
+    <div class="container">
+        <h2>Por que escolher nosso produto?</h2>
+        <p>Nós sabemos o quanto é difícil manter uma rotina saudável e equilibrada nos dias de hoje. Por isso, desenvolvemos um produto que vai te ajudar a alcançar seus objetivos sem complicações.</p>
+
+        <div class="highlight">
+            <p><strong>Aviso importante:</strong> Estoque limitado devido à alta demanda. Aproveite enquanto ainda está disponível!</p>
+        </div>
+
+        <h2>Escolha o plano perfeito para você</h2>
+        <div class="pricing">
+            <div class="card">
+                <h3>Kit Básico</h3>
+                <p>1 mês de tratamento</p>
+                <p class="price">R$ 199</p>
+            </div>
+
+            <div class="card">
+                <h3>Kit Popular</h3>
+                <p>3 meses de tratamento</p>
+                <p class="price">R$ 499</p>
+            </div>
+
+            <div class="card">
+                <h3>Kit Completo</h3>
+                <p>6 meses de tratamento</p>
+                <p class="price">R$ 899</p>
+            </div>
+        </div>
+
+        <a href="#" class="cta-button">Garanta Já o Seu!</a>
+    </div>
 </body>
 </html>
